@@ -2,8 +2,8 @@
 
 namespace Benaja\StatamicWebsiteBuilder;
 
-use Statamic\Providers\AddonServiceProvider;
 use Statamic\Facades\CP\Nav;
+use Statamic\Providers\AddonServiceProvider;
 
 class ServiceProvider extends AddonServiceProvider
 {
@@ -12,11 +12,11 @@ class ServiceProvider extends AddonServiceProvider
     ];
 
     protected $scripts = [
-        __DIR__.'/../public/js/register-components.js'
+        __DIR__.'/../public/js/register-components.js',
     ];
 
     protected $stylesheets = [
-        __DIR__.'/../public/css/app.css'
+        __DIR__.'/../public/css/app.css',
     ];
 
     public function bootAddon()
