@@ -12,11 +12,11 @@ class ServiceProvider extends AddonServiceProvider
     ];
 
     protected $scripts = [
-        'register-components.js'
+        __DIR__.'/../public/js/register-components.js'
     ];
 
     protected $stylesheets = [
-        'app.css'
+        __DIR__.'/../public/css/app.css'
     ];
 
     public function bootAddon()
