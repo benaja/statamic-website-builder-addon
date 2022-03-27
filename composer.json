@@ -1,0 +1,24 @@
+{
+    "name": "benaja/statamic-website-builder",
+    "autoload": {
+        "psr-4": {
+            "Benaja\\StatamicWebsiteBuilder\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benaja"
+        }
+    ],
+    "extra": {
+        "statamic": {
+            "name": "Statamic Website Builder",
+            "description": "Statamic Website Builder addon"
+        },
+        "laravel": {
+            "providers": [
+                "Benaja\\StatamicWebsiteBuilder\\ServiceProvider"
+            ]
+        }
+    }
+}
