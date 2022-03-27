@@ -1,0 +1,42 @@
+{
+  "name": "statamic-website-builder",
+  "version": "1.0.0",
+  "description": "> Statamic Website Builder is a Statamic addon that does something pretty neat.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benaja/statamic-website-builder.git"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.1",
+    "autoprefixer": "^10.4.0",
+    "cross-env": "^7.0",
+    "css-loader": "^5.2.7",
+    "laravel-mix": "^6.0",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.19",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benaja/statamic-website-builder/issues"
+  },
+  "homepage": "https://github.com/benaja/statamic-website-builder#readme"
+}
