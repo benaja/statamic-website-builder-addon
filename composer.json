@@ -1,5 +1,7 @@
 {
-    "name": "benaja/statamic-website-builder",
+    "name": "benaja/statamic-website-builder-addon",
+    "description": "A Statamic website builder addon",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Benaja\\StatamicWebsiteBuilder\\": "src"

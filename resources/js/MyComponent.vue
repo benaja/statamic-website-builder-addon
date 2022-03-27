@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="bg-blue-500 mt-[50px]">MyComponent 123</h1>
+        <h1 class="bg-blue-500 mt-[50px]">MyComponent</h1>
     </div>
 </template>
 
