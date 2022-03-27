@@ -427,7 +427,31 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-\[50px\] {
   margin-top: 50px;
 }
+.flex {
+  display: flex;
+}
+.h-0 {
+  height: 0px;
+}
+.min-h-\[20px\] {
+  min-height: 20px;
+}
+.min-h-4 {
+  min-height: 1rem;
+}
+.w-0 {
+  width: 0px;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-full {
+  width: 100%;
+}
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+.opacity-0 {
+  opacity: 0;
 }

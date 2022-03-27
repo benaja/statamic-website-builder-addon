@@ -24,8 +24,9 @@ class ServiceProvider extends AddonServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'statamic');
 
         Nav::extend(function ($nav) {
-            $nav->content('Store')
-                ->route('store.index')
+            $nav->create('Colors')
+                ->section('Style')
+                ->route('style.colors')
                 ->icon('shopping-cart');
         });
     }

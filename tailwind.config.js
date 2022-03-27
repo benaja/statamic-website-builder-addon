@@ -6,7 +6,11 @@ module.exports = {
     './content/**/*.md'
   ],
   theme: {
-    extend: {},
+    extend: {
+      minHeight: ({ theme}) => ({
+        ...theme('spacing')
+      })
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

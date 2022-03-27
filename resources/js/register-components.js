@@ -1,8 +1,6 @@
-import MyComponent from './MyComponent.vue';
+import SelectColors from './components/SelectColors.vue';
 
-console.log('register-components.js 123123');
 
 Statamic.booting(() => {
-    console.log('statamic booting');
-    Statamic.$components.register('my-component', MyComponent);
+    Statamic.$components.register('select-colors', SelectColors);
 });

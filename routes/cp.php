@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('statamic.cp.store.index', function () {
+Route::get('style/colors', function () {
     return view('statamic::colors');
-})->name('store.index');
+})->name('style.colors');

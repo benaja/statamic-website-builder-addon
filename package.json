@@ -20,8 +20,14 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.1",
     "autoprefixer": "^10.4.0",
+    "babel-eslint": "^10.1.0",
     "cross-env": "^7.0",
     "css-loader": "^5.2.7",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-tailwindcss": "^3.5.0",
+    "eslint-plugin-vue": "^8.5.0",
     "laravel-mix": "^6.0",
     "postcss": "^8.4.5",
     "postcss-import": "^14.0.1",
@@ -38,5 +44,8 @@
   "bugs": {
     "url": "https://github.com/benaja/statamic-website-builder/issues"
   },
-  "homepage": "https://github.com/benaja/statamic-website-builder#readme"
+  "homepage": "https://github.com/benaja/statamic-website-builder#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

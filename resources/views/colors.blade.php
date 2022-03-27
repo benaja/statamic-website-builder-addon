@@ -4,9 +4,9 @@
 @section('content')
 
     <div>
-    Hello there 1234
+    <!-- <h1>Colors</h1> -->
 
-    <my-component></my-component>
+    <select-colors></select-colors>
 
     <!-- <example-fieldtype></example-fieldtype> -->
 
